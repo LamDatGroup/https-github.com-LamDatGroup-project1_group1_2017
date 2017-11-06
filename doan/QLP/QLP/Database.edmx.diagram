@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="05099ec6db1d4b7cb448128f4fdf155b" Name="Diagram1">
+        <EntityTypeShape EntityType="QLPhimModel.CaChieu" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPhimModel.DangNhap" Width="1.5" PointX="5" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPhimModel.Ghe" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPhimModel.LichChieu" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPhimModel.NhomNhanVien" Width="1.5" PointX="2.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPhimModel.Phim" Width="1.5" PointX="0.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPhimModel.Phong" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPhimModel.Ve" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPhimModel.XuatChieu" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPhimModel.KhachHang" Width="1.5" PointX="7.5" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="QLPhimModel.FK_XuatChieu_CaChieu" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPhimModel.FK_DangNhap_NhomNhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPhimModel.FK_Ghe_Phong1" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPhimModel.FK_Ve_Ghe" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPhimModel.FK_XuatChieu_LichChieu" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPhimModel.FK_XuatChieu_Phim" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPhimModel.FK_XuatChieu_Phong" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPhimModel.FK_KhachHang_Ve" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPhimModel.FK_Ve_XuatChieu" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
